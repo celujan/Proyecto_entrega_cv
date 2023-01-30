@@ -1,0 +1,6 @@
+Nombre: Guy
+Apellido: Álvarez
+Estado Civil: Soltero c/ hijos
+Cumpleaños: 3/3/1950
+Dirección: 5857 Oak Ridge Ln
+Password: henti

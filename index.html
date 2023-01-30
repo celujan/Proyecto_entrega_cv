@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_prototipo_ensayo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagenes/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    
+
+    
+    <!--Header de la página-->
+    <header class="encabezado">
+        <div class="nombre"><h1>Guy Álvarez</h1></div>
+        <div class="foto"><img src="imagenes/foto_perfil.jpg" alt="foto_perfil"></div>
+    
+    </header>
+    <!--Botón de menú con dirección hacia archivos txt-->
+    <nav class="naveg">
+        <div class="dropdown">
+            <button class="mainmenubtn">Mis Datos aquí</button><li class=" odd">
+            
+              <a href="archivos.txt/dpersonales.txt">Datos Personales</a>
+              <a href="archivos.txt/dacademicos.txt">Datos Académicos</a>
+              <a href="archivos.txt/dlaborales.txt">Datos Laborales</a>
+              
+            </div>
+          </div>
+        
+        
+    </nav>
+    <!--Main con dos apartados-->
+    <main class="pricipal-content">
+        <section><h3>Aspiraciones</h3>
+            <p id="myP">Características que me destacan</p>
+            <p>Se identificaron las cualidades que aspiro para este puesto de trabajo: <b>creatidad, prudencia, motivación, paciencia, calma, claridad y frescura.</b> Entre las ventajas más significativas de este contexto se puede apreciar la libertad de la creatividad.</p>
+            <input type="button" onclick="ConfirmDemo();" value="Confirmar"/>
+        </section>
+        <aside>
+            <h4>Links habituales que visito: </h4>
+            <form>
+                <input type="button" onclick="window.location.href='https://spark.adobe.com/about/post';" value="spark.adobe.com" />
+                <input type="button" onclick="window.location.href='https://pixlr.com/editor/';" value="pixlr.com" />
+                <input type="button" onclick="window.location.href='http://site.youidraw.com/';" value="site.youidraw.com" />
+
+            </form>
+        </aside>
+
+        
+        
+
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div><h4>Medios de contacto</h4></div>
+        <div><img src="imagenes/telefono.gif" alt="teléfono">
+            <p>(701)472-8086</p>
+        </div>
+        <div><img src="imagenes/6416396-mensaje.gif" alt="e-mail">
+            <p>guy.alvarez@example.com</p>
+    </div>
+    </footer>
+    <!--Con relación a Js un mensaje y evento-->
+        
+    <script src="funcionalidades.js"></script>
+    
+</body>
+</html>
